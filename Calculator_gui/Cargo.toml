@@ -1,0 +1,10 @@
+[package]
+name = "hi"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+fltk = "1.4.12"
+fltk-sys = { version = "1.4.12", features = ["fltk-bundled"] }
+eval = "0.4.3"
